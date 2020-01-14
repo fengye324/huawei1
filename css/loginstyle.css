@@ -1,0 +1,256 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+a{   
+	
+	font-weight:normal;
+	text-decoration: none;
+}
+.header{
+	height: 67px;
+    background: #ebebeb;
+    font-size: 18px;
+}
+   
+.header_center{
+	width: 998px;
+	height: 67px;
+	margin: 0px auto; 
+	 overflow: hidden;
+	 color:gray; 
+	 font-size: 15px;
+	 line-height: 67px;
+
+}
+.header_center img{
+	margin-top: 16px;
+	margin-right: 20px;
+	float: left;
+}
+.header_center b{
+	color:black;
+	margin-left: 16px;
+	font-family: "宋体";
+}
+.nav{
+	height: 40px;
+	background: #fffbe4;
+	line-height: 40px;
+	text-align: center;
+	font-size: 13px;color: gray;
+	text-decoration: none;
+}
+.nav b a{
+	
+}
+.nav img{
+	width: 13px;
+	height: 13px;
+	margin-bottom:-2px;
+}
+.main{
+	height: 590px;
+	background: #081638;
+}
+.main_center{
+	width: 1130px;
+	height: 590px;
+	background: url('../images/login_default_bg.png')no-repeat;
+	margin: 0px auto;
+}
+.login{
+	float: right;
+	width: 380px;
+	height: 530px;
+	background: white;
+	margin-top: 32px;
+	
+}
+.login ul{
+	height: 22px;
+	margin: 25px auto;
+	font-size: 18px;
+	color: gray;
+	text-align: center;
+}
+ .login li:hover{
+	color:  #b40707;
+}
+.login li{
+    color: black;
+	padding-right: 52px;
+	margin-left: 60px; 
+    float: left;
+}
+li.cc{
+	color:  #b40707;
+	cursor: pointer;
+
+}
+.login li:nth-of-type(1){
+	border-right: 1px solid gray;
+}
+
+
+section div{
+	width: 380px;
+	height: 458px;
+    display: none;
+}
+section>div.ccc{
+	display: block;
+
+} 
+.vam{
+	margin: 26px auto;
+	height: 46px;
+	width: 328px;
+	border-bottom:1px solid gray;
+	line-height: 46px;
+	color: #cccccc;
+}
+.vam input{
+	outline: none;
+	border: none;
+}
+.vam:nth-of-type(2){
+  margin-bottom: 17px;
+}
+.ccc span{
+	color: #007dff;
+	font-size: 13px;
+	height: 14px;
+	margin-left: 26px;
+ }
+span img{
+width:16px ;
+margin-bottom: -3px;
+}
+.vc{
+	background: #b40707;
+	margin: 17px auto;
+	width: 328px;
+	height: 46px;
+	font-size: 14px;
+	color: white;
+	line-height: 46px;
+	text-align: center;
+	border-radius: 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.ccc span:nth-of-type(2){
+
+	color: black;
+	font-size: 13px;
+ }
+.re{
+	width: 328px;
+	border: 17px solid white;
+	margin:0px auto;
+	height: 14px;
+	font-size: 13px;
+	text-align: center;
+	
+}
+.re a{
+	color: #007dff;
+	height: 14px;
+	width: 84px;
+	border-right: 0.5px solid gray;
+	padding-left: 23px;
+	padding-right: 23px;
+	text-decoration:none;
+}
+.re a:nth-of-type(3){
+	border-right: none;
+}
+.fl{
+	border-top: 80px solid white;
+	margin: 0px auto;
+	height: 12px;
+	color: gray;
+	font-size: 11px;
+	text-align: center;
+
+}
+.anther{
+	border-top: 15px solid white;
+	margin: 0px auto;
+     width: 168px;
+    height: 42px;
+}
+.anther span{
+	width: 42px;
+	height: 42px;
+	float:left;
+	margin-left:0px;
+	margin-right: 21px;
+	cursor: pointer;
+}
+.anther span:nth-of-type(3){
+	margin-right:0px;
+}
+.qqLogin{
+    background: url('../images/third_login.png')no-repeat -72px -10px;
+   width: 42px;
+    height: 42px;
+}
+.weixin{
+	background: url('../images/third_login.png')no-repeat -12px -10px;
+   width: 42px;
+    height: 42px;
+}
+.zhifu{
+	background: url('../images/third_login.png')no-repeat -131px -10px;
+    width: 42px;
+    height: 42px;
+}
+.qqLogin:hover{
+    background: url('../images/third_login.png')no-repeat -72px -56px;
+   width: 42px;
+    height: 42px;
+}
+.weixin:hover{
+	background: url('../images/third_login.png')no-repeat -12px -56px;
+   width: 42px;
+    height: 42px;
+}
+.zhifu:hover{
+	background: url('../images/third_login.png')no-repeat -131px -56px;
+    width: 42px;
+    height: 42px;
+}
+
+
+.footer{
+
+	height: 124px;
+	background: #ebebeb;
+	padding-top: 25px;
+	text-align: center;
+	color: #999999;
+	text-align: center;
+
+	
+}
+.footer p{
+	margin-bottom: 25px;
+	height: 13px;
+	font-size: 12px;	
+}
+.footer a{
+	color: gray;
+	border-right: 0.5px solid gray;	
+	padding-left: 23px;
+	padding-right: 23px;
+	text-decoration:none;
+}
+.footer a:hover{
+	border-right: 0.5px solid gray;	
+	padding-left: 23px;
+	padding-right: 23px;
+	text-decoration:underline;
+}
